@@ -133,9 +133,8 @@ footer a {
     font-weight: 100;
 }
 
+
 /*galeria*/
-
-
 
 .tituloGaleria {
     margin-top: 50px;
@@ -162,30 +161,4 @@ footer a {
     border: none;
     color: #337ab7;
 }
-/*Nosotros*/
 
-.menuNosotros li {
-    list-style: none;
-    margin: 10px 10px;
-}
-
-.menuNosotros li,
-a {
-    text-align: left;
-    color: darkblue;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.mision {
-    margin-top: 70px;
-}
-
-.mision h2 {
-    font-weight: bold;
-    color: darkblue;
-    text-align: center;
-    margin-top: 80px;
-}
