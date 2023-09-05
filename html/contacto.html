@@ -30,10 +30,10 @@
                         <a class="nav-link miLink" href="#">Procedimientos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link miLink" href="galeria.html">Galería</a>
+                        <a class="nav-link miLink" href="#">Galería</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link miLink" href="#">Profesionales</a>
+                        <a class="nav-link miLink" href="../html/profesionales.html">Profesionales</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link miLink" href="#">Contacto</a>
@@ -44,39 +44,38 @@
     </header>
 
     <div class="tituloGaleria mt-1">
-        <h2>Profesionales</h2>
+        <h2>Contacto</h2>
     </div>
 
-    <div class="contenedorServicios container text-center mt-5">
-        <div class="row">
-            <div class="col-xl-6 col-md-6 col-sm-12">
-                <h5 class="nombreProfesional">Boris Gil</h5>
-                <img src="../img/boris.jpeg" class="fotoProfesional img-fluid rounded-start" alt="Enfermedades Venosas">
-            </div>
-            <div class="contenedorProfesionales mb-3 col-xl-6 col-md-6 col-sm-12">
-                <ul>
-                    <li>Médico y Cirujano de la Universidad Tecnológica de Pereira</li>
-                    <li>Diplomado en Flebología Clínica Universidad El Bosque de Bogotá</li>
-                    <li>Especialista en Gerencia de IPS Universidad CES</li>
-                    <li>Miembro correspondiente del Colegio Colombiano de Flebología</li>
-                    <li>Miembro correspondiente Sociedad Panamericana de Flebología</li>
-                    <li>Desde el año 1993 se dedica al diagnóstico y al tratamiento de la enfermedad venosa.</li>
-                </ul>
-            </div>
-            <div class="col-xl-6 col-md-6 col-sm-12">
-                <h5 class="nombreProfesional">Christian Gil</h5>
-                <img src="../img/christian.jpeg" class="fotoProfesional img-fluid rounded-start" alt="Depilación">
-            </div>
-            <div class="contenedorProfesionales col-xl-6 col-md-6 col-sm-12">
-                <ul>
-                    <li>Médico y Cirujano de la Universidad Pontificia Bolivariana</li>
-                    <li>Magister en Nutrición Deportiva Universas CES</li>
-                    <li>Especialista en Medicina del Deporte de La universidad de Antioquia</li>
-                </ul>
-            </div>
+ <!-- Form -->
+
+ <div class="mt-5 container text-center">
+    <div class="row">
+        <div class="col-xl-6 col-md-6 col-sm-12">
+            <img class="logoForm cita img-fluid" src="../img/logo.png" alt="logo Femo">
+        </div>
+        <div class="col-xl-6 col-md-6 col-sm-12">
+            <h3 class="titleForm">Pide tu cita y recibe un servicio médico integral o cuéntanos qué tratamiento
+                estético necesitas.
+                Déjanos tus datos y nos comunicaremos contigo.</h3>
+            <form>
+                <label for="nombre">Nombre*</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo electrónico*</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="edad">Edad*</label>
+                <input type="number" id="edad" name="edad" required>
+
+                <label for="mensaje">Mensaje*</label>
+                <textarea name="" id="" cols="30" rows="4" placeholder="Deje su mensaje"></textarea>
+
+                <input class="boton" type="submit">
+            </form>
         </div>
     </div>
-
+</div>
 
     <!-- footer -->
 

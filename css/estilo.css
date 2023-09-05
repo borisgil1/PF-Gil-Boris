@@ -212,3 +212,23 @@ a {
     color: #BB6C92;
     font-weight: bold;
 }
+
+/*Procedimientos*/
+
+.contenedorProcedimientos,
+p {
+    font-size: 15px;
+    color: #337ab7;
+}
+
+.contenedorProcedimientos h5 {
+    color: #BB6C92;
+}
+
+.tarjeta {
+    border: none;
+    padding: 15px;   
+}
+
+
+
