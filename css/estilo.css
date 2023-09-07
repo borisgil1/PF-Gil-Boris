@@ -31,8 +31,7 @@ header {
     color: #337ab7;
 }
 
-
-.contenedor p {
+.contenedorTextoConImagen p {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 35px;
@@ -117,7 +116,7 @@ textarea {
 footer {
     background-color: #337ab7;
     text-align: center;
-    border-bottom: #337ab7 solid;
+    border-bottom: #337ab7 solid; 
 }
 
 footer p {
@@ -131,6 +130,36 @@ footer a {
     color: #fafafa;
     text-transform: none;
     font-weight: 100;
+}
+
+/*Procedimientos*/
+
+.tituloProcedimientos {
+    margin-top: 50px;
+    background-color: #337ab7;
+    color: #fafafa;
+    text-align: center;
+    font-weight: bold;
+    padding: 16px;
+}
+
+.tituloProcedimientos h2 {
+    font-size: 55px;
+}
+
+.contenedorProcedimientos,
+p {
+    font-size: 15px;
+    color: #337ab7;
+}
+
+.contenedorProcedimientos h5 {
+    color: #BB6C92;
+}
+
+.tarjeta {
+    border: none;
+    padding: 15px;   
 }
 
 /*galeria*/
@@ -161,35 +190,26 @@ footer a {
     color: #337ab7;
 }
 
-/*Nosotros*/
-
-.menuNosotros li {
-    list-style: none;
-    margin: 10px 10px;
-}
-
-.menuNosotros li,
-a {
-    text-align: left;
-    color: darkblue;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.mision {
-    margin-top: 70px;
-}
-
-.mision h2 {
-    font-weight: bold;
-    color: darkblue;
-    text-align: center;
-    margin-top: 80px;
-}
-
 /*Profesionales*/
+
+.tituloProfesionales {
+    margin-top: 50px;
+    background-color: #337ab7;
+    color: #fafafa;
+    text-align: center;
+    font-weight: bold;
+    padding: 16px;
+}
+
+.tituloProfesionales h2 {
+    font-size: 55px;
+}
+
+.nombreProfesional {
+    font-size: 28px;
+    color: #BB6C92;
+    font-weight: bold;
+}
 
 .fotoProfesional {
     width: 450px;
@@ -207,28 +227,9 @@ a {
     margin-top: 50px;
 }
 
-.nombreProfesional {
-    font-size: 28px;
-    color: #BB6C92;
-    font-weight: bold;
-}
 
-/*Procedimientos*/
 
-.contenedorProcedimientos,
-p {
-    font-size: 15px;
-    color: #337ab7;
-}
 
-.contenedorProcedimientos h5 {
-    color: #BB6C92;
-}
-
-.tarjeta {
-    border: none;
-    padding: 15px;   
-}
 
 
 
