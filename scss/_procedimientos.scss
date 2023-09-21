@@ -1,0 +1,32 @@
+/*procedimientos*/
+
+@mixin titulos {
+    background-color:$color-principal;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 16px;
+
+    h2 {
+        font-size: 55px
+    }
+}
+
+.tituloProcedimientos {
+    @include titulos;
+}
+
+.contenedorProcedimientos,
+p {
+    font-size: 15px;
+    color: $color-principal;
+
+    h5 {
+        color: $color-segundario;
+    }
+
+    .tarjeta {
+        border: none;
+        padding: 15px;
+    }
+}

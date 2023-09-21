@@ -1,0 +1,63 @@
+/*form*/
+
+@mixin titulos {
+    background-color:$color-principal;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 16px;
+
+    h2 {
+        font-size: 55px
+    }
+}
+
+.tituloContacto {
+    @include titulos;
+}
+
+.logoForm {
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: $color-principal;
+}
+
+form {
+
+    input,
+    textarea {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    Label {
+        display: block;
+        margin-bottom: 5px;
+        color: $color-principal;
+        font-size: 20px;
+    }
+}
+
+.boton {
+    width: 100px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: $color-segundario;
+    color: $color-titulo;
+    border: none;
+}

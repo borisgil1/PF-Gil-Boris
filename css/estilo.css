@@ -1,235 +1,222 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@charset "UTF-8";
+/*variables*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
 }
 
-/*Barra Navegación*/
-
+/*Header*/
 header {
-    border-top: solid 20px #337ab7
+  border-top: solid 20px #337ab7;
+}
+header img {
+  width: 80px;
+}
+header nav {
+  font-size: 25px;
+}
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #337ab7;
+  font-weight: bolder;
+}
+header nav a:hover {
+  background-color: #EEF0F1;
+  border-radius: 10px;
+  color: #337ab7;
 }
 
-.navbar {
-    font-size: 25px;
-}
-
-.navbar a {
-    text-transform: none;
-    color: #337ab7;
-    font-weight: bold;
-}
-
-.miLogo {
-    width: 80px;
-}
-
-.miLink:hover {
-    background-color: #EEF0F1;
-    border-radius: 10px;
-    color: #337ab7;
-}
-
+/*Banner*/
 .contenedorTextoConImagen p {
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 35px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 35px;
+  color: black;
 }
 
 .tituloNuestrosServicios {
-    background-color: #337ab7;
-    color: #fafafa;
-    text-align: center;
-    font-weight: bold;
-    padding: 16px;
+  background-color: #337ab7;
+  color: #fafafa;
+  text-align: center;
+  font-weight: bold;
+  padding: 16px;
 }
-
 .tituloNuestrosServicios h2 {
-    font-size: 55px;
+  font-size: 55px;
 }
 
-.contenedorServicios,
-h5 {
-    color: #337ab7;
-    font-size: 20px;
-    font-weight: bold;
+.contenedorServicios, h5 {
+  color: #337ab7;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /*imagen y ubicación*/
-
 .imagenCita {
-    width: 100%;
+  width: 100%;
 }
 
 .ubicacion {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 /*form*/
+.tituloContacto {
+  background-color: #337ab7;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 16px;
+}
+.tituloContacto h2 {
+  font-size: 55px;
+}
 
 .logoForm {
-    width: 200px;
-    margin-bottom: 50px;
+  width: 200px;
+  margin-bottom: 50px;
 }
 
-.titleForm {
-    font-size: 25px;
-    text-align: left;
-    margin-bottom: 40px;
-    font-weight: bold;
-    color: #337ab7;
+h3 {
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 40px;
+  font-weight: bold;
+  color: #337ab7;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
-    color: #337ab7;
-    font-size: 20px;
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 8px;
 }
-
-input,
-textarea {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 8px;
+form Label {
+  display: block;
+  margin-bottom: 5px;
+  color: #337ab7;
+  font-size: 20px;
 }
 
 .boton {
-    width: 100px;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    margin-top: 10px;
-    display: inline-block;
-    background-color: #BB6C92;
-    color: #fafafa;
-    border: none;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #BB6C92;
+  color: #fafafa;
+  border: none;
 }
 
 /*footer*/
-
 footer {
-    background-color: #337ab7;
-    text-align: center;
-    border-bottom: #337ab7 solid; 
+  background-color: #337ab7;
+  text-align: center;
+  border-bottom: #337ab7 solid;
 }
-
 footer p {
-    display: inline-block;
-    font-size: 15px;
-    color: #fafafa;
+  display: inline-block;
+  font-size: 15px;
+  color: #fafafa;
 }
-
 footer a {
-    font-size: 15px;
-    color: #fafafa;
-    text-transform: none;
-    font-weight: 100;
+  font-size: 15px;
+  color: #fafafa;
+  text-transform: none;
+  font-weight: 100;
 }
 
-/*Procedimientos*/
-
+/*procedimientos*/
 .tituloProcedimientos {
-    margin-top: 50px;
-    background-color: #337ab7;
-    color: #fafafa;
-    text-align: center;
-    font-weight: bold;
-    padding: 16px;
+  background-color: #337ab7;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 16px;
 }
-
 .tituloProcedimientos h2 {
-    font-size: 55px;
+  font-size: 55px;
 }
 
 .contenedorProcedimientos,
 p {
-    font-size: 15px;
-    color: #337ab7;
+  font-size: 15px;
+  color: #337ab7;
 }
-
-.contenedorProcedimientos h5 {
-    color: #BB6C92;
+.contenedorProcedimientos h5,
+p h5 {
+  color: #BB6C92;
 }
-
-.tarjeta {
-    border: none;
-    padding: 15px;   
+.contenedorProcedimientos .tarjeta,
+p .tarjeta {
+  border: none;
+  padding: 15px;
 }
 
 /*galeria*/
-
 .tituloGaleria {
-    margin-top: 50px;
-    background-color: #337ab7;
-    color: #fafafa;
-    text-align: center;
-    font-weight: bold;
-    padding: 16px;
+  background-color: #337ab7;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 16px;
 }
-
 .tituloGaleria h2 {
-    font-size: 55px;
+  font-size: 55px;
 }
 
 .tituloVarices h3 {
-    font-size: 28px;
-    color: #BB6C92;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 50px;
+  font-size: 28px;
+  color: #BB6C92;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .contenedorImagenes div {
-    border: none;
-    color: #337ab7;
+  border: none;
+  color: #337ab7;
 }
 
 /*Profesionales*/
-
 .tituloProfesionales {
-    margin-top: 50px;
-    background-color: #337ab7;
-    color: #fafafa;
-    text-align: center;
-    font-weight: bold;
-    padding: 16px;
+  background-color: #337ab7;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 16px;
 }
-
 .tituloProfesionales h2 {
-    font-size: 55px;
+  font-size: 55px;
 }
 
 .nombreProfesional {
-    font-size: 28px;
-    color: #BB6C92;
-    font-weight: bold;
+  font-size: 28px;
+  color: #BB6C92;
+  font-weight: bold;
 }
 
 .fotoProfesional {
-    width: 450px;
-    margin-bottom: 50px;
+  width: 450px;
+  margin-bottom: 50px;
 }
 
 .contenedorProfesionales li {
-    margin-top: 20px;
-    font-size: 20px;
-    text-align: justify;
-    color: #337ab7;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: justify;
+  color: #337ab7;
 }
-
 .contenedorProfesionales ul {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
-
-
-
-
-
-
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,26 @@
+/*Header*/
+
+header {
+    border-top: solid 20px #337ab7;
+
+    img {
+        width: 80px;
+    }
+
+    nav {
+        font-size: 25px;
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $color-principal;
+            font-weight: bolder;
+
+            &:hover {
+                background-color: #EEF0F1;
+                border-radius: 10px;
+                color: #337ab7;
+            }
+        }
+    }
+}

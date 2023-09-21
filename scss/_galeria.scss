@@ -1,0 +1,30 @@
+/*galeria*/
+
+@mixin titulos {
+  background-color:$color-principal;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 16px;
+
+  h2 {
+      font-size: 55px
+  }
+}
+
+.tituloGaleria {
+@include titulos;
+  }
+  
+  .tituloVarices h3 {
+    font-size: 28px;
+    color: $color-segundario;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .contenedorImagenes div {
+    border: none;
+    color: $color-principal;
+  }

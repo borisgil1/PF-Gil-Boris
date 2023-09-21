@@ -1,0 +1,41 @@
+/*Profesionales*/
+
+@mixin titulos {
+    background-color:$color-principal;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 16px;
+
+    h2 {
+        font-size: 55px
+    }
+}
+
+.tituloProfesionales {
+ @include titulos;
+}
+
+.nombreProfesional {
+  font-size: 28px;
+  color: $color-segundario;
+  font-weight: bold;
+}
+
+.fotoProfesional {
+  width: 450px;
+  margin-bottom: 50px;
+}
+
+.contenedorProfesionales {
+  li {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+    color: $color-principal;
+  }
+
+  ul {
+    margin-top: 50px;
+  }
+}
