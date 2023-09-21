@@ -2,7 +2,7 @@
 
 @mixin titulos {
     background-color:$color-principal;
-    color: white;
+    color: $color-titulo;
     text-align: center;
     font-weight: bold;
     padding: 16px;

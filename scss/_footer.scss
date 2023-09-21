@@ -1,20 +1,49 @@
 /*footer*/
 
 footer {
-    background-color: #337ab7;
-    text-align: center;
-    border-bottom: #337ab7 solid;
-  
-    p {
-      display: inline-block;
-      font-size: 15px;
-      color: #fafafa;
-    }
-  
-    a {
-      font-size: 15px;
-      color: #fafafa;
-      text-transform: none;
-      font-weight: 100;
-    }
+  background-color: $color-principal;
+  color: $color-titulo;
+  padding: 20px 0;
+}
+
+.footerContenido {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.infoContacto p {
+  color: $color-titulo;
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+.redesSociales a {
+  margin: 5px 0;
+  font-size: 20px;
+  color: $color-titulo;
+  text-decoration: none;
+  margin-right: 10px;
+
+  &:hover {
+    color: darkblue;
   }
+}
+
+.footer i {
+  margin-right: 10px;
+}
+
+@media (max-width:1023px) {
+  .footerContenido {
+      flex-direction: column;
+      text-align: center;
+  }
+}
