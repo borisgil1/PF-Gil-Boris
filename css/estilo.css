@@ -32,6 +32,18 @@ header nav a:hover {
 }
 
 /*Banner*/
+@media (min-width: 350px) {
+  .textoInicio {
+    text-align: justify;
+    font-size: 25px;
+  }
+}
+@media (min-width: 1000px) {
+  .textoInicio {
+    text-align: justify;
+    font-size: 30px;
+  }
+}
 .contenedorTextoConImagen p {
   font-weight: bold;
   margin-bottom: 35px;
@@ -65,18 +77,6 @@ h4 {
   margin-top: 30px;
 }
 
-@media (min-width: 766px) {
-  .textoInicio {
-    text-align: justify;
-    font-size: 25px;
-  }
-}
-@media (min-width: 767px) {
-  .textoInicio {
-    text-align: justify;
-    font-size: 30px;
-  }
-}
 /*form*/
 .tituloContacto {
   background-color: #337ab7;
