@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,8 @@
     <!-- BS CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS PROPIA PERSONAL  -->
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="icon" href="../img/logo.png">
@@ -20,8 +22,8 @@
 <body>
     <header class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">
-                <img class="miLogo" src="../img/logo.png" alt="logo"></a>
+            <a class="mx-auto navbar-brand" href="./index.html">
+                <img class="ms-5" src="../img/logo.png" alt="logo Femo Estetica"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -49,7 +51,7 @@
     </header>
 
     <div class="tituloGaleria mt-1">
-        <h2>Galería</h2>
+        <h1>Galería</h1>
     </div>
 
     <div class="tituloVarices">
@@ -59,7 +61,7 @@
     <!-- Fotos varices -->
 
     <main>
-        <div class="contenedorImagenes row mt-5">
+        <div class="mx-auto container-fluid contenedorImagenes row mt-5">
             <div class="col-xl-3 col-md-6 col-sm-12">
                 <div class="card text-center">
                     <img src="../img/antes1.jpg" class="card-img-top" alt="Foto Antes">
@@ -189,7 +191,7 @@
 
             <div class="col-xl-3 col-md-6 col-sm-12">
                 <div class="card text-center">
-                    <img src="../img/antes8.jpg" class="card-img-top" alt="Foto Antes">
+                    <img src="../img/antes1.jpg" class="card-img-top" alt="Foto Antes">
                     <div class="card-body">
                         <h5 class="card-title">Antes</h5>
                     </div>
@@ -198,7 +200,7 @@
 
             <div class="col-xl-3 col-md-6 col-sm-12">
                 <div class="card text-center">
-                    <img src="../img/despues8.jpg" class="card-img-top" alt="Foto después">
+                    <img src="../img/despues1.jpg" class="card-img-top" alt="Foto después">
                     <div class="card-body">
                         <h5 class="card-title">Después</h5>
                     </div>
@@ -212,6 +214,7 @@
         </div>
 
     </main>
+
 
     <!-- footer -->
 
@@ -237,6 +240,12 @@
         crossorigin="anonymous"></script>
 
     <script src="https://kit.fontawesome.com/ac484d389e.js" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

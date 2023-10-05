@@ -7,7 +7,7 @@
     font-weight: bold;
     padding: 16px;
 
-    h2 {
+    h1 {
         font-size: 55px
     }
 }
@@ -16,8 +16,8 @@
     @include titulos;
 }
 
-.logoForm {
-    width: 200px;
+.fotoClinica {
+    width: 420px;
     margin-bottom: 50px;
 }
 
@@ -60,4 +60,13 @@ form {
     background-color: $color-segundario;
     color: $color-titulo;
     border: none;
+}
+
+.boton:hover {
+    transform: translateY(-5px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.boton:active {
+    transform: translateY(3px);
 }

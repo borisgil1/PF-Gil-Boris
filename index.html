@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -10,9 +10,11 @@
     <!-- BS CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="icon" href="./img/logo.png">
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS PROPIA PERSONAL  -->
     <link rel="stylesheet" href="css/estilo.css">
-    <link rel="icon" href="./img/logo.png">
 </head>
 
 <!--barra de navegación-->
@@ -20,8 +22,8 @@
 <body>
     <header class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">
-                <img src="./img/logo.png" alt="logo"></a>
+            <a class="mx-auto navbar-brand" href="./index.html">
+                <img class="ms-5" src="./img/logo.png" alt="Logo Femo Estetica"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -53,16 +55,16 @@
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./img/imagen.PNG" class="d-block w-100" alt="Slide fideos">
+                <img src="./img/imagen.PNG" class="d-block w-100" alt="Slide Centro Medico ">
             </div>
             <div class="carousel-item">
-                <img src="./img/imagen2.PNG" class="d-block w-100" alt="Slide Salsa">
+                <img src="./img/imagen2.PNG" class="d-block w-100" alt="Slide Estamos certificados para brindar seguridad y calidad">
             </div>
             <div class="carousel-item">
-                <img src="./img/imagen3.PNG" class="d-block w-100" alt="Slide fideos">
+                <img src="./img/imagen3.PNG" class="d-block w-100" alt="Slide Contamos con personal médico altamente calificado">
             </div>
             <div class="carousel-item">
-                <img src="./img/imagen4.PNG" class="d-block w-100" alt="Slide Salsa">
+                <img src="./img/imagen4.PNG" class="d-block w-100" alt="Slide Alta tecnologia experiencia y calidad">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -80,14 +82,14 @@
     <main>
         <div class="contenedorTextoConImagen container text-justify mt-5 mb-5">
             <div class="row">
-                <div class="col-xl-6 col-md-6 col-sm-12">
+                <div data-aos="fade-right" data-aos-duration="1000" class="col-xl-6 col-md-6 col-sm-12">
                     <p>
                         Somos un centro médico de referencia departamental y nacional con énfasis en el diagnóstico y
                         tratamientos de enfermedades venosas
                     </p>
                 </div>
-                <div class="col-xl-6 col-md-6 col-sm-12">
-                    <img src="./img/venas.jpg" class="img-fluid rounded-start" alt="Imagen Venas Varices">
+                <div data-aos="fade-left" data-aos-duration="1000" class="col-xl-6 col-md-6 col-sm-12">
+                    <img src="img/venas.jpg" class="img-fluid rounded-start" alt="Imagen Venas Varices">
                 </div>
             </div>
         </div>
@@ -95,10 +97,10 @@
         <!--Servicios-->
 
         <div class="tituloNuestrosServicios mt-3">
-            <h2>Nuestros Servicios</h2>
+            <h1>Nuestros Servicios</h1>
         </div>
 
-        <div class="contenedorServicios container text-center mt-5">
+        <div data-aos="zoom-in" data-aos-duration="1000" class="contenedorServicios container text-center mt-5">
             <div class="row">
                 <div class="col-xl-6 col-md-6 col-sm-12">
                     <h5>Tratamiento de Enfermedades Venosas</h5>
@@ -111,7 +113,7 @@
                 </div>
                 <div class="col-xl-6 col-md-6 col-sm-12">
                     <h5>Depilación permanente con Láser IPL</h5>
-                    <img src="img/laser.jpg" class="img-fluid rounded-start" alt="Imagen Depilación">
+                    <img src="img/laser.jpg" class="img-fluid rounded-start" alt="Imagen Depilación laser">
                 </div>
                 <div class="col-xl-6 col-md-6 col-sm-12">
                     <h5>Sonohidrolipolisis</h5>
@@ -123,11 +125,11 @@
 
     <!-- imagen y ubicación -->
 
-    <div>
+    <div data-aos="fade-right" data-aos-duration="1000">
         <img class="imagenCita img-fluid mt-5" src="img/imagen5.PNG" alt="Imagen pide tu cita">
     </div>
 
-    <div class="ubicacion">
+    <div data-aos="fade-left" data-aos-duration="1000" class="ubicacion">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15864.7619928555!2d-75.58588815!3d6.238604799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429a2b27c1ed1%3A0x8f588111594e8b6e!2sCentro%20M%C3%A9dico%20Femo%20Est%C3%A9tica!5e0!3m2!1ses!2sco!4v1691616478625!5m2!1ses!2sco"
             width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
@@ -140,7 +142,7 @@
     <div class="mt-5 mb-2 container text-center">
         <div class="row">
             <div class="col-xl-6 col-md-6 col-sm-12">
-                <img class="logoForm img-fluid" src="img/logo.png" alt="logo Femo">
+                <img class="fotoClinica img-fluid" src="img/clinica.jpg" alt="logo Femo Estetica">
             </div>
             <div class="col-xl-6 col-md-6 col-sm-12">
                 <h3>Pide tu cita y recibe un servicio médico integral o cuéntanos qué tratamiento
@@ -194,6 +196,11 @@
         crossorigin="anonymous"></script>
 
     <script src="https://kit.fontawesome.com/ac484d389e.js" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script> AOS.init(); </script>
+
 </body>
 
 </html>

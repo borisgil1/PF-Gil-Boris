@@ -28,6 +28,7 @@ header nav a {
   text-transform: uppercase;
   color: #337ab7;
   font-weight: bolder;
+  color: black;
 }
 header nav a:hover {
   background-color: #EEF0F1;
@@ -53,7 +54,8 @@ header nav a:hover {
   font-size: 55px;
 }
 
-.contenedorServicios, h5 {
+.contenedorServicios,
+h5 {
   color: #337ab7;
   font-size: 20px;
   font-weight: bold;
@@ -76,7 +78,7 @@ header nav a:hover {
   font-weight: bold;
   padding: 16px;
 }
-.tituloContacto h2 {
+.tituloContacto h1 {
   font-size: 55px;
 }
 
@@ -146,6 +148,7 @@ footer {
   color: #fafafa;
   margin: 5px 0;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .redesSociales a {
@@ -177,7 +180,7 @@ footer {
   font-weight: bold;
   padding: 16px;
 }
-.tituloProcedimientos h2 {
+.tituloProcedimientos h1 {
   font-size: 55px;
 }
 
@@ -185,6 +188,7 @@ footer {
 p {
   font-size: 15px;
   color: #337ab7;
+  text-align: justify;
 }
 .contenedorProcedimientos h5,
 p h5 {
@@ -193,7 +197,7 @@ p h5 {
 .contenedorProcedimientos .tarjeta,
 p .tarjeta {
   border: none;
-  padding: 15px;
+  margin-left: 20px;
 }
 
 /*galeria*/
@@ -204,7 +208,7 @@ p .tarjeta {
   font-weight: bold;
   padding: 16px;
 }
-.tituloGaleria h2 {
+.tituloGaleria h1 {
   font-size: 55px;
 }
 
@@ -229,7 +233,7 @@ p .tarjeta {
   font-weight: bold;
   padding: 16px;
 }
-.tituloProfesionales h2 {
+.tituloProfesionales h1 {
   font-size: 55px;
 }
 

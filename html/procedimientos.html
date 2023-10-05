@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Somos un centro médico de referencia departamental y nacional con énfasis en el diagnóstico y tratamientos de enfermedades venosas">
+        content="En nuestro centro médico ofrecemos servicios de alta calidad para el cuidado de tu cuerpo como son: Escleroespuma, Plasma rico en plaquetas, Depilación Láser y Sonohidrolipolisis">
     <title>Procedimientos - Femo Estética</title>
     <!-- BS CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="icon" href="../img/logo.png">
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS PROPIA PERSONAL  -->
     <link rel="stylesheet" href="../css/estilo.css">
-    <link rel="icon" href="../img/logo.png">
 </head>
 
 <!--barra de navegación-->
@@ -20,8 +22,8 @@
 <body>
     <header class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">
-                <img class="miLogo" src="../img/logo.png" alt="logo"></a>
+            <a class="mx-auto navbar-brand" href="./index.html">
+                <img class="ms-5" src="../img/logo.png" alt="logo Femo Estetica"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,13 +54,13 @@
 
     <main>
         <div class="tituloProcedimientos mt-1">
-            <h2>Procedimientos</h2>
+            <h1>Procedimientos</h1>
         </div>
 
         <div class="contenedorProcedimientos container-fluid row row-cols-1 row-cols-md-2 g-4 mt-5 mb-5">
             <div class="col">
-                <div class="tarjeta card">
-                    <img src="../img/varices.jpg" class="card-img-top" alt="Imagen Varices">
+                <div data-aos="fade-down-right" data-aos-duration="1000" class="tarjeta card">
+                    <img src="../img/varices.jpg" class="card-img-top" alt="Imagen Escleroespuma">
                     <div class="card-body">
                         <h5 class="card-title">Escleroespuma</h5>
                         <p class="card-text">Los problemas de las venas afectan a mujeres y hombres con una prevalencia
@@ -73,9 +75,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-6 col-md-6 col-sm-12">
+            <div data-aos="fade-down-left" data-aos-duration="1000" class="col-xl-6 col-md-6 col-sm-12">
                 <div class="tarjeta card">
-                    <img src="../img/plasma2.jpg" class="card-img-top" alt="Imagen plasma">
+                    <img src="../img/plasma2.jpg" class="card-img-top" alt="Imagen Plasma">
                     <div class="card-body">
                         <h5 class="card-title">Plasma rico en plaquetas</h5>
                         <p class="card-text">El plasma rico en plaquetas (PRP) es un tratamiento rejuvenecedor y
@@ -89,9 +91,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-6 col-md-6 col-sm-12">
+            <div data-aos="fade-up-right" data-aos-duration="1000" class="col-xl-6 col-md-6 col-sm-12">
                 <div class="tarjeta card">
-                    <img src="../img/depilacion.jpg" class="card-img-top" alt="Imagen depilación láser">
+                    <img src="../img/depilacion.jpg" class="card-img-top" alt="Imagen Depilación láser">
                     <div class="card-body">
                         <h5 class="card-title">Depilación permanente con Láser IPL</h5>
                         <p class="card-text">Este sistema de depilación consiste en la emisión de una fuente de luz que
@@ -103,9 +105,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-6 col-md-6 col-sm-12">
+            <div data-aos="fade-up-left" data-aos-duration="1000" class="col-xl-6 col-md-6 col-sm-12">
                 <div class="tarjeta card">
-                    <img src="../img/sono.jpg" class="card-img-top" alt="Imagen sono">
+                    <img src="../img/sono.jpg" class="card-img-top" alt="Imagen Sono">
                     <div class="card-body">
                         <h5 class="card-title">Sonohidrolipolisis</h5>
                         <p class="card-text">El término sonohidrolipolisis viene de las palabras sonó (sonidos), hidro
@@ -155,6 +157,10 @@
         crossorigin="anonymous"></script>
 
     <script src="https://kit.fontawesome.com/ac484d389e.js" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script> AOS.init(); </script>
 </body>
 
 </html>
