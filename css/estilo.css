@@ -14,11 +14,8 @@ body {
 }
 
 /*Header*/
-header {
-  border-top: solid 20px #337ab7;
-}
 header img {
-  width: 80px;
+  width: 50px;
 }
 header nav {
   font-size: 25px;
@@ -28,7 +25,6 @@ header nav a {
   text-transform: uppercase;
   color: #337ab7;
   font-weight: bolder;
-  color: black;
 }
 header nav a:hover {
   background-color: #EEF0F1;
@@ -50,12 +46,12 @@ header nav a:hover {
   font-weight: bold;
   padding: 16px;
 }
-.tituloNuestrosServicios h2 {
+.tituloNuestrosServicios h1 {
   font-size: 55px;
 }
 
 .contenedorServicios,
-h5 {
+h4 {
   color: #337ab7;
   font-size: 20px;
   font-weight: bold;
@@ -82,8 +78,8 @@ h5 {
   font-size: 55px;
 }
 
-.logoForm {
-  width: 200px;
+.fotoClinica {
+  width: 419px;
   margin-bottom: 50px;
 }
 
@@ -124,10 +120,19 @@ form Label {
   border: none;
 }
 
+.boton:hover {
+  transform: translateY(-5px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+
+.boton:active {
+  transform: translateY(3px);
+}
+
 /*footer*/
 footer {
   background-color: #337ab7;
-  color: #fafafa;
+  color: #337ab7;
   padding: 20px 0;
 }
 
@@ -142,6 +147,7 @@ footer {
 .footer h4 {
   font-size: 20px;
   margin-bottom: 10px;
+  color: #fafafa;
 }
 
 .infoContacto p {
@@ -197,7 +203,7 @@ p h5 {
 .contenedorProcedimientos .tarjeta,
 p .tarjeta {
   border: none;
-  margin-left: 20px;
+  padding: 15px;
 }
 
 /*galeria*/
@@ -223,6 +229,7 @@ p .tarjeta {
 .contenedorImagenes div {
   border: none;
   color: #337ab7;
+  justify-content: space-around;
 }
 
 /*Profesionales*/
