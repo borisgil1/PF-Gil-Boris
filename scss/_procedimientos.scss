@@ -16,7 +16,7 @@
     @include titulos;
 }
 
-.contenedorProcedimientos,
+.contenedorProcedimientos, 
 p {
     font-size: 15px;
     color: $color-principal;
@@ -29,5 +29,6 @@ p {
     .tarjeta {
         border: none;
         padding: 15px;
+      width: auto;
     }
 }

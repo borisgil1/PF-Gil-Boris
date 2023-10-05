@@ -33,7 +33,6 @@ header nav a:hover {
 
 /*Banner*/
 .contenedorTextoConImagen p {
-  font-size: 30px;
   font-weight: bold;
   margin-bottom: 35px;
   color: black;
@@ -66,6 +65,18 @@ h4 {
   margin-top: 30px;
 }
 
+@media (min-width: 766px) {
+  .textoInicio {
+    text-align: justify;
+    font-size: 25px;
+  }
+}
+@media (min-width: 767px) {
+  .textoInicio {
+    text-align: justify;
+    font-size: 30px;
+  }
+}
 /*form*/
 .tituloContacto {
   background-color: #337ab7;
@@ -204,6 +215,7 @@ p h5 {
 p .tarjeta {
   border: none;
   padding: 15px;
+  width: auto;
 }
 
 /*galeria*/

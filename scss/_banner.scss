@@ -1,7 +1,6 @@
 /*Banner*/
 
 .contenedorTextoConImagen p {
-  font-size: 30px;
   font-weight: bold;
   margin-bottom: 35px;
   color: black;
@@ -34,4 +33,18 @@ h4 {
 
 .ubicacion {
   margin-top: 30px;
+}
+
+@media (min-width:766px) {
+  .textoInicio {
+   text-align: justify;
+   font-size: 25px;
+  }
+}
+
+@media (min-width:767px) {
+  .textoInicio {
+   text-align: justify;
+   font-size: 30px;
+  }
 }
